@@ -222,7 +222,7 @@ footer p {
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-    background-color: #fff;
+    background-color: #838080;
     border-radius: 3px;
     z-index: 1;
     transform-origin: 4px 0px;
@@ -239,8 +239,8 @@ footer p {
 
   #menuToggle input:checked ~ span {
     opacity: 1;
-    background-color: #ff6300;
-    transform: rotate(45deg) translate(-2px, -1px);
+    background-color: #3acec2;
+    transform: rotate(45deg) translate(-2px, 0px);
   }
 
   #menuToggle input:checked ~ span:nth-last-child(3) {
@@ -250,7 +250,7 @@ footer p {
 
   #menuToggle input:checked ~ span:nth-last-child(2) {
     opacity: 1;
-    background-color: #ff6300;
+    background-color: #3acec2;
     transform: rotate(-45deg) translate(0, -1px);
   }
 
@@ -259,13 +259,24 @@ footer p {
     width: 400px;
     height: 110vh;
     margin: -100px 0 0 -50px;
-    background-color: #2060cc;
-    padding: 25px;
+    background-color: #093a58;
+    padding: 45px;
     padding-top: 100px;
     list-style-type: none;
     transform-origin: 0% 0%;
     transform: translate(100%, 0);
     transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  #mobileMainContent a:first-of-type {
+    margin-top: 10vh;
+  }
+
+  #mobileMainContent a:hover {
+    color: #fff !important;
+    text-decoration: underline;
   }
 
   #menuToggle input:checked ~ ul {
