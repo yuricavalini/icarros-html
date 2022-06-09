@@ -16,6 +16,7 @@ a {
   text-transform: uppercase;
   text-decoration: none;
   transition: all 0.3s;
+  font-weight: bold;
 }
 
 a:hover {
@@ -159,6 +160,7 @@ header img {
 .footer-links {
   display: grid;
   text-align: left;
+  gap: 8px;
 }
 
 footer {
