@@ -65,6 +65,18 @@ header img {
   height: 100vh;
 }
 
+.section-title {
+  text-align: center;
+}
+
+.section-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 .center-content {
   display: flex;
   align-items: center;
